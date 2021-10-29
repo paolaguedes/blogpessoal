@@ -7,10 +7,11 @@
 html {scroll-behavior: smooth;}
 
 :root {
-    --cor-texto: #666;
+    --cor-texto: rgb(173, 173, 173);
 }
 
 body {
+    background-color: rgba(0,0,0,0.9);
     font-family: 'Open Sans', arial, helvetica, sans-serif;
     color: var(--cor-texto);
     line-height: 1.7;
@@ -31,6 +32,8 @@ h3 {font-size: 26px; margin-bottom: 10px;}
 h4 {font-size: 22px; margin-bottom: 10px;}
 
 h5 {font-size: 18px; margin: 30px 0 25px;}
+
+input, textarea {background-color: var(--cor-texto);}
 
 .button-default {
     border: 1px solid var(--cor-texto);
@@ -175,9 +178,7 @@ h5 {font-size: 18px; margin: 30px 0 25px;}
 }
 
 .main-content .main-content-section .form-adress form input[type=submit] { 
-    background-color: white;
     padding: 15px 0;
-    color: var(--cor-texto);
     text-transform: uppercase;
     transition: color .5s linear;
     cursor: pointer;
@@ -186,7 +187,7 @@ h5 {font-size: 18px; margin: 30px 0 25px;}
 }
 
 .main-content .main-content-section .form-adress form input[type=submit]:hover { 
-    background-color: var(--cor-texto);
+    background-color: rgb(121, 120, 120);;
     color:white;
 }
 
